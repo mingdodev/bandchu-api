@@ -3,7 +3,7 @@
 [![language](https://img.shields.io/badge/Language-Kotlin%202.2.21-7F52FF)](https://kotlinlang.org/docs/whatsnew2221.html)
 [![framework](https://img.shields.io/badge/Framework-Spring%20Boot%203.5.7-6DB33F)](https://spring.io/projects/spring-boot)
 [![orm](https://img.shields.io/badge/ORM-Exposed-7952B3)](https://github.com/JetBrains/Exposed)
-[![db](https://img.shields.io/badge/Database-Postgres-336791)](https://www.postgresql.org/)
+[![db](https://img.shields.io/badge/Database-PostgreSQL-336791)](https://www.postgresql.org/)
 [![test](https://img.shields.io/badge/Testing-Kotest-B84E0F)](https://kotest.io/)
 [![build](https://img.shields.io/badge/Build-Gradle-02303A)](https://gradle.org/)
 
