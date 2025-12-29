@@ -13,7 +13,6 @@
 
 - [API 명세](./docs/API_SPEC.md)
 - [협업 가이드](./docs/TEAM_GUIDE.md)
-- [도메인 모델 설계](./docs/DOMAIN_MODEL.md)
 
 <br>
 
@@ -39,6 +38,12 @@
 
 <br>
 
+## 📚 데이터베이스 스키마
+
+![ERD](docs/assets/erd.png)
+
+<br>
+
 ## ⚙️ 환경 변수 설정
 
 ```properties
@@ -49,14 +54,16 @@ DB_PASSWORD=your_db_password
 
 # Google OAuth 설정
 GOOGLE_CLIENT_ID=your_google_client_id
+
+# AWS Credential 설정
+AWS_CREDENTIAL_ACCESS_KEY=your_aws_access_key
+AWS_CREDENTIAL_SECRET_KEY=your_aws_secret_key
 ```
-
-### 환경 변수 설명
-
 - **DB_URL**: PostgreSQL 데이터베이스 연결 URL
 - **DB_USERNAME**: 데이터베이스 사용자 이름
 - **DB_PASSWORD**: 데이터베이스 비밀번호
 - **GOOGLE_CLIENT_ID**: Google OAuth 2.0 클라이언트 ID (Google Cloud Console에서 발급)
+- **AWS_CREDENTIAL_ACCESS_KEY / SECRET_KEY**: AWS S3 접근을 위한 IAM 사용자 키
 
 <!--
 <br>
